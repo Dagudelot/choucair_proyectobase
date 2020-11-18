@@ -1,5 +1,14 @@
 .idea/
 .gradle/
+log/
+target/
+build/
+out/
+hooks/pre-push
+*.class
+*.jar
+*.war
+*.ear
 *.iml
 *.iws
 *.editorconfig
