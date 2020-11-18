@@ -1,10 +1,9 @@
 package co.com.choucair.certification.academy.userinterface;
 
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class SearchCoursePage extends PageObject {
+public class SearchCoursePage {
 
     public static final Target COURSES_MODULE  = Target.the("text that redirects us to the courses list page").located( By.xpath("//*[@id=\"certificaciones\"]/div[1]/a") );
     public static final Target SEARCH_INPUT    = Target.the("input to type in the course name").located( By.id("coursesearchbox") );
